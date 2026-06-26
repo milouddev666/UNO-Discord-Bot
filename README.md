@@ -11,9 +11,6 @@
 [![Discord](https://img.shields.io/badge/discord-eris.js-5865F2)](https://github.com/abalabahaha/eris)
 
 ---
-
-
-
 </div>
 
 ---
