@@ -12,7 +12,7 @@
 
 ---
 
-[🇺🇸 English](./README.md) | [🇩🇪 Deutsch](./README.de.md) | [🇪🇸 Español](./README.es.md) | [🇸🇦 العربية](./README.ar.md)
+
 
 </div>
 
@@ -121,8 +121,8 @@
 ### 📥 الخطوة 1: تحميل المشروع
 
 ```bash
-git clone https://github.com/your-username/unobot.git
-cd unobot
+git clone https://github.com/milouddev666/UNO-Discord-Bot.git
+cd UNO-Discord-Bot
 ```
 
 ### 📦 الخطوة 2: تثبيت الحزم
