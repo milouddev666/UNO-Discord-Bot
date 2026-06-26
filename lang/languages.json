@@ -1,0 +1,22 @@
+[
+	{
+		"code": "en-US",
+		"language": "English",
+		"region": "United States"
+	},
+	{
+		"code": "de-DE",
+		"language": "German",
+		"region": "Germany"
+	},
+	{
+		"code": "es-ES",
+		"language": "Spanish",
+		"region": "Spain"
+	},
+	{
+		"code": "ar-SA",
+		"language": "Arabic",
+		"region": "Saudi Arabia"
+	}
+]

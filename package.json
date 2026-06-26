@@ -1,0 +1,28 @@
+{
+	"name": "unobot",
+	"version": "1.1.0",
+	"description": "A Discord bot for playing Uno",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"lint": "eslint . --ext .js",
+		"lint:fix": "eslint . --ext .js --fix"
+	},
+	"author": "Exium",
+	"license": "MIT",
+	"dependencies": {
+		"@top-gg/sdk": "^3.1.6",
+		"bufferutil": "^4.0.9",
+		"eris": "^0.16.1",
+		"eris-fleet": "^1.0.1",
+		"mongoose": "^5.13.22",
+		"nodemon": "^3.1.9",
+		"pako": "^2.1.0",
+		"sharp": "^0.33.5",
+		"utf-8-validate": "^6.0.5"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.1",
+		"prettier": "^3.4.2"
+	}
+}
