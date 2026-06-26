@@ -1,0 +1,89 @@
+const mongoose = require("mongoose");
+const { cardsArray } = require("../../utils/config");
+
+const gameSchema = new mongoose.Schema(
+	{
+		guildID: {
+			type: String,
+			default: ""
+		},
+		boardMessageID: {
+			type: String,
+			default: ""
+		},
+		boardChannelID: {
+			type: String,
+			default: ""
+		},
+		pendingWildCard: {
+			type: String,
+			default: ""
+		},
+		pendingWildPlayer: {
+			type: String,
+			default: ""
+		},
+		status: {
+			type: String,
+			default: ""
+		},
+		gameCreatorID: {
+			type: String,
+			default: ""
+		},
+		startChannelID: {
+			type: String,
+			default: ""
+		},
+		startMessageID: {
+			type: String,
+			default: ""
+		},
+		startTime: {
+			type: Date,
+			default: Date.now
+		},
+		currentCard: {
+			type: String,
+			default: ""
+		},
+		currentPosition: {
+			type: Number,
+			default: 0
+		},
+		stackedCards: {
+			type: Number,
+			default: 0
+		},
+		unoCallout: {
+			type: String,
+			default: ""
+		},
+		saidUno: {
+			type: Boolean,
+			default: false
+		},
+		channelIDs: Array,
+		playerOrder: Array,
+		kickedPlayers: Array,
+		customGameSettings: {
+			type: Object,
+			default: {}
+		},
+		gameSettings: {
+			type: Object,
+			default: {}
+		},
+		players: {
+			type: Object,
+			default: {}
+		},
+		deck: {
+			type: Array,
+			default: cardsArray
+		}
+	},
+	{ minimize: false }
+);
+
+module.exports = mongoose.model("Game", gameSchema);
